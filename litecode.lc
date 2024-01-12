@@ -1,0 +1,36 @@
+set input1 = 0
+set input2 = 0
+set kmd = 0
+
+if $term_startup == 0
+    set term_startup = 1
+    set kmd = 0
+    print LiteCode
+print |$directory
+input |>
+split $input
+set komut = $input1
+set arg1 = $input2
+
+#komutlar
+if $komut == run
+    set kmd=did
+    run $arg1
+    set term_startup = 0
+if $komut == clear or $komut == cls
+    set kmd=did
+    clear
+if $komut == print
+    set kmd=did
+    print Hello, World!
+if $komut == cd
+    set kmd=did
+    cd $arg1
+if $komut == exit
+    exit
+
+
+if $kmd != did
+    print Komut bulunamadi
+
+run litecode.lc
