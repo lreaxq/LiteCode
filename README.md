@@ -46,4 +46,18 @@ set a = 10
 set b = 10
 math a + b
 print Sonuç: $math
+```
+Koşul İfadeleri
+```litecode
+set sifre = abc123
 
+#klavyeden bir değer girilmesini ve değişkene atanmasını isteyelim.
+input şifre girin:
+set gsifre = $input
+
+#girilen sifrenin gerçek sifreyle eşit olup olmadığını kontrol edelim.
+if $gsifre == $sifre
+  print Giriş başarılı!
+if $gsifre != $sifre
+  print Giriş başarısız!
+```
