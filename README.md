@@ -16,22 +16,6 @@ LiteCode, basit ve hafif bir programlama dilidir. Python tabanlı olarak gelişt
 
 LiteCode'u kullanmaya başlamak için aşağıdaki adımları izleyebilirsiniz.
 
-## Python Kurulumu
-
-LiteCode, Python diline dayalıdır, bu nedenle öncelikle Python'un yüklü olup olmadığını kontrol edelim ve gerekirse yükleyelim.
-
-### Python Yükleme Adımları:
-
-1. [Python'un Resmi İndirme Sayfası](https://www.python.org/downloads/) üzerinden en son sürümü indirin.
-
-2. İndirilen dosyayı çalıştırarak Python'u bilgisayarınıza kurun.
-
-3. Yüklemenin başarıyla tamamlandığını kontrol etmek için terminal veya komut istemcisine şu komutu yazın:
-
-   ```bash
-   python --version
-Bu komut, yüklü Python sürümünü göstermelidir.
-
 ## LiteCode Yorumlayıcısı Kurulumu
 
 ### LiteCode Yorumlayıcısı ve Shellini İndirme ve Kurma Adımları:
@@ -40,19 +24,26 @@ Bu komut, yüklü Python sürümünü göstermelidir.
 
 2. İndirilen dosyayı bir klasöre çıkarın.
 
-3. Terminal veya komut istemcisinde bu klasöre gidin.
+3. Setup dosyasını yönetici olarak başlatın.
 
-4. LiteCode'u çalıştırmak için şu komutu yazın:
+4. Kurulum adımlarını izleyin ve kurulumu bitirin.
 
-    ```bash
-   python litecode.py
+5. Kurulum bittikten sonra masaüstünde .lc uzantılı bir dosya oluşturun ve kodlamaya başlayın
 
-Bu komut, LiteCode yorumlayıcısını başlatmalı ve kullanım bilgilerini göstermelidir.
+Kodunuzu çalıştırmak için dosyanıza çift tıklamanız yeterlidir.
 
 Artık LiteCode yorumlayıcısını kullanmaya başlayabilirsiniz!
 
-## Örnek Kullanım
-
+## Örnek Kullanımlar
+Merhaba, Dünya!
 ```litecode
 set name = Dünya
-print Merhaba, $name !
+print Merhaba, $name!
+```
+Aritmatiksel İşlemler
+```litecode
+set a = 10
+set b = 10
+math a + b
+print Sonuç: $math
+
