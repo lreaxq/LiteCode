@@ -48,17 +48,15 @@ math a + b
 print Nəticə: $math
 ```
 Şərt İfadələri
-litecode```
+```litecode
 set sifre = abc123
-
-# İstifadəçidən dəyər daxil etməsini və onu bir dəyişənə təyin etməsini istəyək.
+#İstifadəçidən dəyər daxil etməsini və onu bir dəyişənə təyin etməsini istəyək.
 input şifrəni daxil edin:
 set gsifre = $input
 
-# Daxil edilmiş şifrənin faktiki şifrə ilə bərabər olub olmadığını yoxlayaq.
+#Daxil edilmiş şifrənin faktiki şifrə ilə bərabər olub olmadığını yoxlayaq.
 if $gsifre == $sifre
   print Giriş uğurlu oldu!
 if $gsifre != $sifre
-  print Giriş uğursuz oldu!
-  ```
-
+    print Giriş uğursuz oldu!
+```
