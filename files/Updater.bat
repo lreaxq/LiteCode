@@ -19,7 +19,7 @@ del "%USERPROFILE%\Desktop\litecode.lc"
 powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/lreaxq/LiteCode/main/files/shell/litecode.lc', '%USERPROFILE%\Desktop\litecode.lc')"
 powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/lreaxq/LiteCode/main/files/shell/litecode.lc', 'litecode.lc')"
 echo Shell Guncellendi!
-powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://github.com/lreaxq/LiteCode/blob/main/files/Updater.bat', 'C:\Program Files (x86)\liteCode\updater.bat')"
+powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/lreaxq/LiteCode/main/files/Updater.bat', 'C:\Program Files (x86)\liteCode\updater.bat')"
 echo Son ayarlamalar yapiliyor..
 echo derleyici windows'a tanitiliyor...
 set "lcPath=%cd%\litecode.exe"  
