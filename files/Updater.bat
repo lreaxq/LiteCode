@@ -3,7 +3,7 @@ color 07
 cls
 if /I not "%cd%" EQU "C:\Windows\System32" (
     echo Guncelleme isleminin devam etmesi icin Lutfen guncelleme dosyasini Yonetici olarak baslatin!
-    powershell -Command "Start-Process -FilePath \"%~dp0%~n0\" -Verb RunAs"
+    powershell -Command "Start-Process -FilePath \"%~nx0\" -Verb RunAs"
     exit
 )
 set "cdd=C:\Program Files (x86)\"
