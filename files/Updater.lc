@@ -1,4 +1,4 @@
 set runner_install = https://github.com/lreaxq/LiteCode/raw/main/files/runner/litecode.exe
 set runner_version = 1.0.6
-set shell_install = 
+set shell_install = https://raw.githubusercontent.com/lreaxq/LiteCode/main/files/shell/litecode.lc
 set shell_version = 0.5.0
